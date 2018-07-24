@@ -1,0 +1,327 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{23}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Alistarh, Li, Tomioka, and Vojnovic}{Alistarh
+  et~al\mbox{.}}{2016}]%
+        {alistarh2016qsgd}
+\bibfield{author}{\bibinfo{person}{Dan Alistarh}, \bibinfo{person}{Jerry Li},
+  \bibinfo{person}{Ryota Tomioka}, {and} \bibinfo{person}{Milan Vojnovic}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{QSGD: Randomized Quantization for
+  Communication-Optimal Stochastic Gradient Descent}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1610.02132}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Andrychowicz, Denil, Gomez, Hoffman, Pfau,
+  Schaul, and de~Freitas}{Andrychowicz et~al\mbox{.}}{2016}]%
+        {andrychowicz2016learning}
+\bibfield{author}{\bibinfo{person}{Marcin Andrychowicz}, \bibinfo{person}{Misha
+  Denil}, \bibinfo{person}{Sergio Gomez}, \bibinfo{person}{Matthew~W Hoffman},
+  \bibinfo{person}{David Pfau}, \bibinfo{person}{Tom Schaul}, {and}
+  \bibinfo{person}{Nando de Freitas}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Learning to learn by gradient descent by gradient
+  descent}. In \bibinfo{booktitle}{\emph{Advances in Neural Information
+  Processing Systems}}. \bibinfo{pages}{3981--3989}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Daniel, Taylor, and Nowozin}{Daniel
+  et~al\mbox{.}}{2016}]%
+        {daniel2016learning}
+\bibfield{author}{\bibinfo{person}{Christian Daniel}, \bibinfo{person}{Jonathan
+  Taylor}, {and} \bibinfo{person}{Sebastian Nowozin}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Learning Step Size Controllers for Robust Neural
+  Network Training.}. In \bibinfo{booktitle}{\emph{AAAI}}.
+  \bibinfo{pages}{1519--1525}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Dean, Corrado, Monga, Chen, Devin, Mao,
+  Senior, Tucker, Yang, Le, et~al\mbox{.}}{Dean et~al\mbox{.}}{2012}]%
+        {dean2012large}
+\bibfield{author}{\bibinfo{person}{Jeffrey Dean}, \bibinfo{person}{Greg
+  Corrado}, \bibinfo{person}{Rajat Monga}, \bibinfo{person}{Kai Chen},
+  \bibinfo{person}{Matthieu Devin}, \bibinfo{person}{Mark Mao},
+  \bibinfo{person}{Andrew Senior}, \bibinfo{person}{Paul Tucker},
+  \bibinfo{person}{Ke Yang}, \bibinfo{person}{Quoc~V Le}, {et~al\mbox{.}}}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Large scale distributed deep networks}. In
+  \bibinfo{booktitle}{\emph{Advances in neural information processing
+  systems}}. \bibinfo{pages}{1223--1231}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Fu, Lin, Liu, Leonard, Feng, and Chua}{Fu
+  et~al\mbox{.}}{2016}]%
+        {fu2016deep}
+\bibfield{author}{\bibinfo{person}{Jie Fu}, \bibinfo{person}{Zichuan Lin},
+  \bibinfo{person}{Miao Liu}, \bibinfo{person}{Nicholas Leonard},
+  \bibinfo{person}{Jiashi Feng}, {and} \bibinfo{person}{Tat-Seng Chua}.}
+  \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Deep Q-Networks for Accelerating the Training of
+  Deep Neural Networks}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1606.01467}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Han, Liu, Mao, Pu, Pedram, Horowitz, and
+  Dally}{Han et~al\mbox{.}}{2016}]%
+        {han2016eie}
+\bibfield{author}{\bibinfo{person}{Song Han}, \bibinfo{person}{Xingyu Liu},
+  \bibinfo{person}{Huizi Mao}, \bibinfo{person}{Jing Pu},
+  \bibinfo{person}{Ardavan Pedram}, \bibinfo{person}{Mark~A Horowitz}, {and}
+  \bibinfo{person}{William~J Dally}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{EIE: efficient inference engine on compressed deep
+  neural network}. In \bibinfo{booktitle}{\emph{Computer Architecture (ISCA),
+  2016 ACM/IEEE 43rd Annual International Symposium on}}. IEEE,
+  \bibinfo{pages}{243--254}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Han, Mao, and Dally}{Han
+  et~al\mbox{.}}{2015}]%
+        {han2015deep}
+\bibfield{author}{\bibinfo{person}{Song Han}, \bibinfo{person}{Huizi Mao},
+  {and} \bibinfo{person}{William~J Dally}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Deep compression: Compressing deep neural networks
+  with pruning, trained quantization and huffman coding}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1510.00149}}
+  (\bibinfo{year}{2015}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hanson and Pratt}{Hanson and Pratt}{1989}]%
+        {hanson1989comparing}
+\bibfield{author}{\bibinfo{person}{Stephen~Jos{\'e} Hanson} {and}
+  \bibinfo{person}{Lorien~Y Pratt}.} \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Comparing biases for minimal network construction
+  with back-propagation}. In \bibinfo{booktitle}{\emph{Advances in neural
+  information processing systems}}. \bibinfo{pages}{177--185}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hassibi and Stork}{Hassibi and Stork}{1993}]%
+        {hassibi1993second}
+\bibfield{author}{\bibinfo{person}{Babak Hassibi} {and}
+  \bibinfo{person}{David~G Stork}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Second order derivatives for network pruning:
+  Optimal brain surgeon}. In \bibinfo{booktitle}{\emph{Advances in neural
+  information processing systems}}. \bibinfo{pages}{164--171}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Ho, Cipar, Cui, Lee, Kim, Gibbons, Gibson,
+  Ganger, and Xing}{Ho et~al\mbox{.}}{2013}]%
+        {ho2013more}
+\bibfield{author}{\bibinfo{person}{Qirong Ho}, \bibinfo{person}{James Cipar},
+  \bibinfo{person}{Henggang Cui}, \bibinfo{person}{Seunghak Lee},
+  \bibinfo{person}{Jin~Kyu Kim}, \bibinfo{person}{Phillip~B Gibbons},
+  \bibinfo{person}{Garth~A Gibson}, \bibinfo{person}{Greg Ganger}, {and}
+  \bibinfo{person}{Eric~P Xing}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{More effective distributed ml via a stale
+  synchronous parallel parameter server}. In \bibinfo{booktitle}{\emph{Advances
+  in neural information processing systems}}. \bibinfo{pages}{1223--1231}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krizhevsky and Hinton}{Krizhevsky and
+  Hinton}{2009}]%
+        {krizhevsky2009learning}
+\bibfield{author}{\bibinfo{person}{Alex Krizhevsky} {and}
+  \bibinfo{person}{Geoffrey Hinton}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{Learning multiple layers of features from tiny
+  images}.
+\newblock  (\bibinfo{year}{2009}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krizhevsky, Sutskever, and Hinton}{Krizhevsky
+  et~al\mbox{.}}{2012}]%
+        {krizhevsky2012imagenet}
+\bibfield{author}{\bibinfo{person}{Alex Krizhevsky}, \bibinfo{person}{Ilya
+  Sutskever}, {and} \bibinfo{person}{Geoffrey~E Hinton}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Imagenet classification with deep convolutional
+  neural networks}. In \bibinfo{booktitle}{\emph{Advances in neural information
+  processing systems}}. \bibinfo{pages}{1097--1105}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{LeCun, Denker, and Solla}{LeCun
+  et~al\mbox{.}}{1990}]%
+        {lecun1990optimal}
+\bibfield{author}{\bibinfo{person}{Yann LeCun}, \bibinfo{person}{John~S
+  Denker}, {and} \bibinfo{person}{Sara~A Solla}.}
+  \bibinfo{year}{1990}\natexlab{}.
+\newblock \showarticletitle{Optimal brain damage}. In
+  \bibinfo{booktitle}{\emph{Advances in neural information processing
+  systems}}. \bibinfo{pages}{598--605}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Li, Andersen, Park, Smola, Ahmed, Josifovski,
+  Long, Shekita, and Su}{Li et~al\mbox{.}}{2014}]%
+        {li2014scaling}
+\bibfield{author}{\bibinfo{person}{Mu Li}, \bibinfo{person}{David~G Andersen},
+  \bibinfo{person}{Jun~Woo Park}, \bibinfo{person}{Alexander~J Smola},
+  \bibinfo{person}{Amr Ahmed}, \bibinfo{person}{Vanja Josifovski},
+  \bibinfo{person}{James Long}, \bibinfo{person}{Eugene~J Shekita}, {and}
+  \bibinfo{person}{Bor-Yiing Su}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Scaling Distributed Machine Learning with the
+  Parameter Server.}. In \bibinfo{booktitle}{\emph{OSDI}},
+  Vol.~\bibinfo{volume}{1}. \bibinfo{pages}{3}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mirhoseini, Pham, Le, Steiner, Larsen, Zhou,
+  Kumar, Norouzi, Bengio, and Dean}{Mirhoseini et~al\mbox{.}}{2017}]%
+        {mirhoseini2017device}
+\bibfield{author}{\bibinfo{person}{Azalia Mirhoseini}, \bibinfo{person}{Hieu
+  Pham}, \bibinfo{person}{Quoc~V Le}, \bibinfo{person}{Benoit Steiner},
+  \bibinfo{person}{Rasmus Larsen}, \bibinfo{person}{Yuefeng Zhou},
+  \bibinfo{person}{Naveen Kumar}, \bibinfo{person}{Mohammad Norouzi},
+  \bibinfo{person}{Samy Bengio}, {and} \bibinfo{person}{Jeff Dean}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Device Placement Optimization with Reinforcement
+  Learning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1706.04972}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mnih, Kavukcuoglu, Silver, Graves, Antonoglou,
+  Wierstra, and Riedmiller}{Mnih et~al\mbox{.}}{2013}]%
+        {mnih2013playing}
+\bibfield{author}{\bibinfo{person}{Volodymyr Mnih}, \bibinfo{person}{Koray
+  Kavukcuoglu}, \bibinfo{person}{David Silver}, \bibinfo{person}{Alex Graves},
+  \bibinfo{person}{Ioannis Antonoglou}, \bibinfo{person}{Daan Wierstra}, {and}
+  \bibinfo{person}{Martin Riedmiller}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Playing atari with deep reinforcement learning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1312.5602}}
+  (\bibinfo{year}{2013}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{\O}land and Raj}{{\O}land and Raj}{2015}]%
+        {oland2015reducing}
+\bibfield{author}{\bibinfo{person}{Anders {\O}land} {and}
+  \bibinfo{person}{Bhiksha Raj}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Reducing communication overhead in distributed
+  learning by an order of magnitude (almost)}. In
+  \bibinfo{booktitle}{\emph{Acoustics, Speech and Signal Processing (ICASSP),
+  2015 IEEE International Conference on}}. IEEE, \bibinfo{pages}{2219--2223}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Seide, Fu, Droppo, Li, and Yu}{Seide
+  et~al\mbox{.}}{2014}]%
+        {seide20141}
+\bibfield{author}{\bibinfo{person}{Frank Seide}, \bibinfo{person}{Hao Fu},
+  \bibinfo{person}{Jasha Droppo}, \bibinfo{person}{Gang Li}, {and}
+  \bibinfo{person}{Dong Yu}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{1-bit stochastic gradient descent and its
+  application to data-parallel distributed training of speech dnns}. In
+  \bibinfo{booktitle}{\emph{Fifteenth Annual Conference of the International
+  Speech Communication Association}}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Str{\"o}m}{Str{\"o}m}{1997}]%
+        {strom1997phoneme}
+\bibfield{author}{\bibinfo{person}{Nikko Str{\"o}m}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{Phoneme probability estimation with dynamic
+  sparsely connected artificial neural networks}.
+\newblock \bibinfo{journal}{\emph{The Free Speech Journal}}
+  \bibinfo{volume}{5} (\bibinfo{year}{1997}), \bibinfo{pages}{1--41}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sutton and Barto}{Sutton and Barto}{1998}]%
+        {sutton1998reinforcement}
+\bibfield{author}{\bibinfo{person}{Richard~S Sutton} {and}
+  \bibinfo{person}{Andrew~G Barto}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Reinforcement learning: An introduction}}.
+  Vol.~\bibinfo{volume}{1}.
+\newblock \bibinfo{publisher}{MIT press Cambridge}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Wen, Xu, Yan, Wu, Wang, Chen, and Li}{Wen
+  et~al\mbox{.}}{2017}]%
+        {wen2017terngrad}
+\bibfield{author}{\bibinfo{person}{Wei Wen}, \bibinfo{person}{Cong Xu},
+  \bibinfo{person}{Feng Yan}, \bibinfo{person}{Chunpeng Wu},
+  \bibinfo{person}{Yandan Wang}, \bibinfo{person}{Yiran Chen}, {and}
+  \bibinfo{person}{Hai Li}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{TernGrad: Ternary Gradients to Reduce Communication
+  in Distributed Deep Learning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1705.07878}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Xu, Qin, Wang, and Liu}{Xu
+  et~al\mbox{.}}{2017}]%
+        {xu2017reinforcement}
+\bibfield{author}{\bibinfo{person}{Chang Xu}, \bibinfo{person}{Tao Qin},
+  \bibinfo{person}{Gang Wang}, {and} \bibinfo{person}{Tie-Yan Liu}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Reinforcement Learning for Learning Rate Control}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1705.11159}}
+  (\bibinfo{year}{2017}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Zoph and Le}{Zoph and Le}{2016}]%
+        {zoph2016neural}
+\bibfield{author}{\bibinfo{person}{Barret Zoph} {and} \bibinfo{person}{Quoc~V
+  Le}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Neural architecture search with reinforcement
+  learning}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1611.01578}}
+  (\bibinfo{year}{2016}).
+\newblock
+
+
+\end{thebibliography}

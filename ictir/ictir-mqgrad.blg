@@ -1,0 +1,101 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: ictir-mqgrad.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: ictir-mqgrad.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no number and no volume in alistarh2016qsgd
+Warning--page numbers missing in both pages and numpages fields in alistarh2016qsgd
+Warning--empty publisher in andrychowicz2016learning
+Warning--empty address in andrychowicz2016learning
+Warning--empty publisher in daniel2016learning
+Warning--empty address in daniel2016learning
+Warning--empty publisher in dean2012large
+Warning--empty address in dean2012large
+Warning--no number and no volume in fu2016deep
+Warning--page numbers missing in both pages and numpages fields in fu2016deep
+Warning--empty publisher in han2016eie
+Warning--empty address in han2016eie
+Warning--no number and no volume in han2015deep
+Warning--page numbers missing in both pages and numpages fields in han2015deep
+Warning--empty publisher in hanson1989comparing
+Warning--empty address in hanson1989comparing
+Warning--empty publisher in hassibi1993second
+Warning--empty address in hassibi1993second
+Warning--empty publisher in ho2013more
+Warning--empty address in ho2013more
+Warning--no journal in krizhevsky2009learning
+Warning--no number and no volume in krizhevsky2009learning
+Warning--page numbers missing in both pages and numpages fields in krizhevsky2009learning
+Warning--empty publisher in krizhevsky2012imagenet
+Warning--empty address in krizhevsky2012imagenet
+Warning--empty publisher in lecun1990optimal
+Warning--empty address in lecun1990optimal
+Warning--can't use both volume and number fields in li2014scaling
+Warning--empty publisher in li2014scaling
+Warning--empty address in li2014scaling
+Warning--no number and no volume in mirhoseini2017device
+Warning--page numbers missing in both pages and numpages fields in mirhoseini2017device
+Warning--no number and no volume in mnih2013playing
+Warning--page numbers missing in both pages and numpages fields in mnih2013playing
+Warning--empty publisher in oland2015reducing
+Warning--empty address in oland2015reducing
+Warning--empty publisher in seide20141
+Warning--empty address in seide20141
+Warning--page numbers missing in both pages and numpages fields in seide20141
+Warning--can't use both volume and number fields in sutton1998reinforcement
+Warning--empty address in sutton1998reinforcement
+Warning--no number and no volume in wen2017terngrad
+Warning--page numbers missing in both pages and numpages fields in wen2017terngrad
+Warning--no number and no volume in xu2017reinforcement
+Warning--page numbers missing in both pages and numpages fields in xu2017reinforcement
+Warning--no number and no volume in zoph2016neural
+Warning--page numbers missing in both pages and numpages fields in zoph2016neural
+You've used 23 entries,
+            5732 wiz_defined-function locations,
+            1402 strings with 19044 characters,
+and the built_in function-call counts, 29797 in all, are:
+= -- 3449
+> -- 1454
+< -- 0
++ -- 491
+- -- 496
+* -- 2329
+:= -- 3214
+add.period$ -- 116
+call.type$ -- 23
+change.case$ -- 202
+chr.to.int$ -- 23
+cite$ -- 70
+duplicate$ -- 2467
+empty$ -- 1733
+format.name$ -- 584
+if$ -- 7053
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 102
+newline$ -- 212
+num.names$ -- 184
+pop$ -- 1080
+preamble$ -- 1
+purify$ -- 409
+quote$ -- 0
+skip$ -- 842
+stack$ -- 0
+substring$ -- 1884
+swap$ -- 228
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 535
+warning$ -- 47
+while$ -- 154
+width$ -- 0
+write$ -- 412
+(There were 47 warnings)
