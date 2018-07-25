@@ -39,7 +39,7 @@
 \makesavenoteenv{table}
 \newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
 \newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
-\newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+\newcolumntype{R}[1] {>{\PreserveBackslash\raggedleft}p{#1}}
 \newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
 \usepackage{lipsum}
 
@@ -62,7 +62,6 @@
 \renewcommand{\shortauthors}{G. Cui et al.}
 
 \begin{document}
-
 
 %\vspace{-3cm} 
 
@@ -105,10 +104,10 @@
 
 \maketitle
 
-\section{Introduction}\label{sec:Intro}
+  \section{Introduction}\label{sec:Intro}
 %With the rapid growth of the training data and the resulting machine learning model complexity, distributed optimization and inference has become a popular solution for scaling up the machine learning problems. Using a cluster of computers can overcome the problem that no single machine can solve the problem efficiently, due to the huge volume of data, the intensive computational workloads, and the large number of model parameters. Parameters sever (PS)~\cite{Li:OSDI2014:PS} is one of the most popularly adopted distributed computing framework tailored for large scale machine learning. PS splits the computers in a cluster into worker nodes and server nodes. The data and workload are distributed to worker nodes and the globally shared model parameters are maintained by the server nodes. During the training of machine learning models, the worker nodes process data and calculate the gradients while server nodes synchronize parameters and perform global updates. 
 
-With the rapid growth of the training data and the resulting machine learning model complexity, distributed optimization has become a popular solution for scaling up the machine learning problems. Parameters sever (PS)~\cite{li2014scaling} is one of the most popularly adopted distributed computing framework tailored for large scale machine learning. PS splits the computers in a cluster into worker nodes and server nodes. The data and workload are distributed to worker nodes and the globally shared model parameters are maintained by the server nodes. During the training of machine learning models, the worker nodes process data and calculate the gradients while server nodes synchronize parameters and perform global updates. PS can scale up a number of machine learning algorithms such as LDA and logistic regression.
+ With the rapid growth of the training data and the resulting machine learning model complexity, distributed optimization has become a popular solution for scaling up the machine learning problems. Parameters sever (PS)~\cite{li2014scaling} is one of the most popularly adopted distributed computing framework tailored for large scale machine learning. PS splits the computers in a cluster into worker nodes and server nodes. The data and workload are distributed to worker nodes and the globally shared model parameters are maintained by the server nodes. During the training of machine learning models, the worker nodes process data and calculate the gradients while server nodes synchronize parameters and perform global updates. PS can scale up a number of machine learning algorithms such as LDA and logistic regression.
 
 It has been observed that the communication overhead is one of the major bottleneck in PS\cite{dean2012large,ho2013more}. At each of the optimization iteration, after finishing the local computations, multiple worker nodes need to push the resulting gradients of the parameters to the corresponding server nodes for parameter updating, and then pull the updated parameters to local for next iteration computations. Since the optimization procedure needs to execute a large number of iterations, the communication volume between the worker nodes and server nodes is huge and time consuming. Thus, how to reduce the communication volume becomes a key problem for accelerating the training of machine learning algorithms on PS.
 
